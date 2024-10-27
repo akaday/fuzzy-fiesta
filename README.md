@@ -70,3 +70,52 @@ The Scully core team wants to help you any time you need us. We don’t want you
 ![logo Hero Devs](assets/hero-devs-logo-80x80.jpg)
 
 **_HeroDevs. LLC_**
+
+## Getting Started
+
+To get started with Scully, follow these steps:
+
+1. Install Scully:
+
+   ```bash
+   ng add @scullyio/init
+   ```
+
+2. Build your Angular project:
+
+   ```bash
+   ng build --prod
+   ```
+
+3. Run Scully to generate the static files:
+
+   ```bash
+   npx scully
+   ```
+
+4. Serve the static files:
+
+   ```bash
+   npx scully serve
+   ```
+
+For more detailed instructions, refer to the [Getting Started](https://scully.io/docs/learn/getting-started/requirements/) guide.
+
+## Features
+
+- Pre-renders each page in your app to plain HTML & CSS
+- Uses guessjs to find all of the routes in your project
+- Delivers each view in just a few KBs
+- Makes your app appear instantly on any device
+- Allows your Angular app to load and bootstrap on top of the existing view
+- Reduces abandoned sessions and increases conversion rates
+- Can run without the backend in production
+- Provides a flexible and extensible plugin system
+
+## Contributing
+
+We welcome contributions to Scully! If you'd like to contribute, please read our [Contribution Guidelines](CONTRIBUTING.md) for more information.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
